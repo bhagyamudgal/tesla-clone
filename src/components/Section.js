@@ -43,10 +43,13 @@ const Wrap = styled.div`
 
 const ItemText = styled.div`
   padding-top: 15vh;
+  line-height: 40px;
   text-align: center;
 `;
 
-const Buttons = styled.div``;
+const Buttons = styled.div`
+  text-align: center;
+`;
 
 const ButtonGroup = styled.div`
   display: flex;
