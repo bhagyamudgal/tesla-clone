@@ -25,6 +25,7 @@ const FooterWrap = styled.div`
   right: 0.7%;
   background-color: lightblue;
   a {
+    text-align: center;
     min-width: 290px;
     color: red;
     transform: rotate(90deg);
