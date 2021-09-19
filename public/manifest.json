@@ -8,6 +8,5 @@
       "type": "image/png"
     }
   ],
-  "start_url": ".",
-  "display": "standalone"
+  "start_url": "https://bm-tesla-clone.netlify.app/",
 }
