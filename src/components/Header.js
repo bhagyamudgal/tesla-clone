@@ -24,8 +24,8 @@ function Header() {
           })}
       </Menu>
       <RightMenu>
-        <a href="#">Shop</a>
-        <a href="#">Tesla Account</a>
+        <a href="/">Shop</a>
+        <a href="/">Tesla Account</a>
         <CustomMenu onClick={() => setBurgerNavStatus(true)} />
       </RightMenu>
       <BurgerNav show={burgerNavStatus}>
@@ -36,24 +36,24 @@ function Header() {
           cars.map((car, index) => {
             return (
               <li key={index}>
-                <a href="#">{car}</a>
+                <a href="/">{car}</a>
               </li>
             );
           })}
         <li>
-          <a href="#">Exisiting Inventory</a>
+          <a href="/">Exisiting Inventory</a>
         </li>
         <li>
-          <a href="#">Used Inventory</a>
+          <a href="/">Used Inventory</a>
         </li>
         <li>
-          <a href="#">Trade-in</a>
+          <a href="/">Trade-in</a>
         </li>
         <li>
-          <a href="#">Cybertruck</a>
+          <a href="/">Cybertruck</a>
         </li>
         <li>
-          <a href="#">Roadaster</a>
+          <a href="/">Roadaster</a>
         </li>
       </BurgerNav>
     </Container>
